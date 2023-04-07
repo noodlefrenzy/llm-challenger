@@ -1,0 +1,19 @@
+{
+  "name": "llm-challenger",
+  "version": "0.0.1",
+  "description": "App for building intuition on how LLMs can self-correct",
+  "main": "index.js",
+  "repository": "https://github.com/noodlefrenzy/llm-challenger.git",
+  "author": "Michael Lanzetta <milanz@microsoft.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^5.0.3"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "langchain": "^0.0.49"
+  }
+}
